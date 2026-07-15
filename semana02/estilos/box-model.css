@@ -3,7 +3,7 @@
     margin: 10px;
     border: 1px solid gray;
     padding: 15px;
-    background-color: #247
+    background-color: #247;
     color: white;
 }
 
@@ -19,8 +19,6 @@
 
 blockquote {
     margin: 5px;
-
-	
 }
 
 cite {
