@@ -27,7 +27,7 @@ h1 {
 }
 
 main img {
-    max-width: 150px;
+    width: 150px;                           
     height: auto;
     border: 1px solid black;
     padding: 2px;
@@ -35,6 +35,11 @@ main img {
 }
 p {
     padding: 0;
+}
+main {
+    max-width: 800px;
+    margin: 1em;
+    
 }
 aside {
     width: 320px;
