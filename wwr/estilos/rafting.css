@@ -44,32 +44,25 @@ nav, p, section, article {
 .hero h1 {
     position:absolute;
     top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-
-     padding: 25px 15px;
-     box-shadow: 0 4px 10px rgba(red, green, blue, alpha);
-     border-radius: 0px;
-   
-    margin: 10px auto;
-   
-    background-color: rgba(0, 0, 0, 0.5);
-    color: rgb(158, 148, 148);
-    font-size: 25px;
-    position:absolute;
-    white-space: nowrap;
-   
-    top: 30px;
-    width: 94%;
+    width: 100%;
+    padding: 16px;
     text-align: center;
-    opacity: 0.7;
-    
-    
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+   
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(121, 109, 109, 0.8);
+}
 .hero article img {
-    display: block;
-    margin: 30px auto;
+   float: right;
+   width: 125px;
+   margin-left: 10px;
     
    }
 
@@ -84,4 +77,3 @@ footer p {
     align-items: center;
     gap: 15px;
 }
-
