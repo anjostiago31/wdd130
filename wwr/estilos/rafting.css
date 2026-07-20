@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #0b3c5d;
+    --secondary-color: #328cc1;
+    --accent-color: #d9b310;
+    --text-color: #000000;
+    --background-color: #ffffff;
+}
 body {
     font-family: 'Courier New', Courier, monospace;
     color: black;
     background-color: white;
-    font-size: 18px;
 }
 
 header, main, footer {
