@@ -5,12 +5,11 @@
 }
 
 :root {
-    --text-color: #000000;
-    --background-color: #ffffff;
+    --fonte-body: 'Courier New', Courier, monospace;
 }
 body {
-    font-family: 'Courier New', Courier, monospace;
-    color: var(--text-color);
+    font-family: var(--fonte-body);
+    color: var(--cor-texto);
     background-color: var(--background-color);
 }
 
