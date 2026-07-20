@@ -34,6 +34,10 @@ nav, p, section, article {
     text-decoration: none;
 }
 
+footer a{
+    text-decoration: none;
+}
+
 .hero {
     position: relative;
 }
