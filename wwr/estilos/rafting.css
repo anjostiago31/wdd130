@@ -5,10 +5,7 @@
 }
 
 :root {
-    --primary-color: #0b3c5d;
-    --secondary-color: #328cc1;
-    --accent-color: #d9b310;
-    --text-color: #000000;
+    
     --background-color: #ffffff;
 }
 body {
