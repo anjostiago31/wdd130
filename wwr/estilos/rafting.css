@@ -13,8 +13,8 @@
 }
 body {
     font-family: 'Courier New', Courier, monospace;
-    color: var(--text-color)
-    var(--background-color)
+    color: var(--text-color);
+    background-color: var(--background-color);
 }
 
 header, main, footer {
