@@ -7,8 +7,8 @@
 :root {
     --fonte-body: 'Courier New', Courier, monospace;
     --cor-texto: #000000;
-
 }
+
 body {
     font-family: var(--fonte-body);
     color: var(--cor-texto);
@@ -67,12 +67,12 @@ footer a{
     padding: 10px;
     background-color: rgba(121, 109, 109, 0.8);
 }
+
 .hero article img {
    float: right;
    width: 125px;
    margin-left: 10px;
-    
-   }
+}
 
 footer p {
     text-align: center;
