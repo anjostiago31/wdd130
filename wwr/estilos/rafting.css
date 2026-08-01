@@ -157,12 +157,12 @@ footer {
 }
 
 /* redes sociais */
-.redes-sociais {
+.socialmedia {
     display: flex;
     gap: 10px;
 }
 
-.redes-sociais img {
+.socialmedia img {
     width: 30px;
 }
 
