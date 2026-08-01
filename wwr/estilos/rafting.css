@@ -6,13 +6,13 @@
 
 :root {
     --fonte-body: 'Courier New', Courier, monospace;
-    --cor-texto: #000000;
+    --cor-texto: white;
 }
 
 body {
     font-family: var(--fonte-body);
     color: var(--cor-texto);
-    background-color: var(--background-color);
+    background-color: #0b3c5d;
 }
 
 header, main, footer {
@@ -22,7 +22,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: white;
     text-align: center;
 }
 
