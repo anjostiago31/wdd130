@@ -25,11 +25,7 @@ h1, h2 {
     color: black;
     text-align: center;
 }
-header h1
-header h2 {
-    color: white;
-    
-}
+
 
 .redes-sociais a {
     text-decoration: none;
@@ -66,7 +62,7 @@ footer a{
     margin: 20px;
     padding: 10px;
     background-color: rgba(121, 109, 109, 0.8);
-    color: white;
+    color: black;
 }
 
 .hero article img {
@@ -94,7 +90,7 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #0b3c5d;
-    color: white;
+    color: black;
 }
 
 /* LOGO */
@@ -191,7 +187,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     align-items: start;
-    color: white;
+    color: black;
 }
 
 /* imagem */
