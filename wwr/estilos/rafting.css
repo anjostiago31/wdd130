@@ -26,10 +26,6 @@ h1, h2 {
     text-align: center;
 }
 
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
-}
 
 .redes-sociais a {
     text-decoration: none;
@@ -115,12 +111,12 @@ nav a {
 }
 
 section {
-    padding: 40px 0;
+    padding: 15px 0;
 }
 
 section h2 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 section p {
@@ -156,6 +152,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: #0b3c5d;
+    color: white;
 }
 
 /* redes sociais */
@@ -175,9 +173,9 @@ footer {
 
 /* caixa cinza */
 .caixa-historia {
-    background-color: #5f5c5c;
+    background-color: #7a7878;
     padding: 20px;
-    border-radius: 0px;
+    border-radius: 0;
     width: 100%;
 }
 
@@ -186,22 +184,20 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-
-    /* 👇 isso alinha tudo pelo topo */
     align-items: start;
 }
 
 /* imagem */
 .conteudo-historia img {
-    width: 100%;
-    max-width: 250px;
+    width: 70%;
+    max-width: 200px;
     margin: auto;
-    border-radius: 10px;
+    border-radius: 0px;
 }
 
 /* textos */
 .conteudo-historia p {
     text-align: justify;
     font-size: 15px;
-    line-height: 1.6;
+    line-height: 1;
 }
