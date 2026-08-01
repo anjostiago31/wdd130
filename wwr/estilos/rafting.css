@@ -64,7 +64,9 @@ footer a{
     background-color: rgba(121, 109, 109, 0.8);
     color: white;
 }
-
+ .hero article h2 {
+    color: white;
+}
 .hero article img {
    float: right;
    width: 125px;
@@ -181,6 +183,9 @@ footer {
     width: 100%;
 }
 
+.caixa-historia h2 {
+  color: white;
+}
 /* layout em 3 colunas */
 .conteudo-historia {
     display: grid;
