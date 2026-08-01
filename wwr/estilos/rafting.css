@@ -62,7 +62,7 @@ footer a{
     margin: 20px;
     padding: 10px;
     background-color: rgba(121, 109, 109, 0.8);
-    color: black;
+    color: white;
 }
 
 .hero article img {
@@ -90,7 +90,7 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #0b3c5d;
-    color: black;
+    color: white;
 }
 
 /* LOGO */
@@ -175,7 +175,7 @@ footer {
 
 /* caixa cinza */
 .caixa-historia {
-    background-color: #7a7878;
+    background-color: rgba(121, 109, 109, 0.8);
     padding: 15px;
     border-radius: 0;
     width: 100%;
@@ -187,7 +187,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     align-items: start;
-    color: black;
+    color: white;
 }
 
 /* imagem */
