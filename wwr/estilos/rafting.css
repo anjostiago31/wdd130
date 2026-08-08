@@ -267,11 +267,6 @@ button:hover {
     border: none;
 }
 
-.formulario form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
 
 .formulario input[type="radio"],
 .formulario input[type="checkbox"] {
@@ -300,11 +295,6 @@ button:hover {
     margin-top: 40px;
 }
 
-.funcionarios {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-}
 
 .funcionarios figure {
     text-align: center;
