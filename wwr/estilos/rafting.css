@@ -14,8 +14,8 @@ body {
     color: var(--cor-texto);
     background-color: #0b3c5d;
 }
-
-header, main, footer {
+ /*RETIREI O FOOTER DAQUI */
+header, main {
     width: 840px;
     margin: 0 auto;
 }
@@ -152,6 +152,8 @@ figcaption {
 }
 
 footer {
+    width: 840px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -298,11 +300,6 @@ button:hover {
 
 .funcionarios figure {
     text-align: center;
-}
-
-.funcionarios img {
-    width: 150px;
-    height: auto;
 }
 
 @media (max-width: 768px) {
