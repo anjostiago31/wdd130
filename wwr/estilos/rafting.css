@@ -162,12 +162,6 @@ footer {
     color: white;
 }
 
-/* redes sociais */
-.redes-sociais {
-    display: flex;
-    gap: 10px;
-}
-
 .redes-sociais img {
     width: 30px;
 }
@@ -213,7 +207,6 @@ footer {
     line-height: 1;
 }
 
-.contato-info,
 .equipe,
 .formulario {
     margin: 20px 0;
@@ -249,7 +242,7 @@ button:hover {
 }
 
 .contato-info {
-    margin-bottom: 30px;
+    margin-bottom: 20px 0 30px;
 }
 
 .dados-empresa {
@@ -295,7 +288,7 @@ button:hover {
 }
 
 .equipe {
-    margin-top: 40px;
+    margin-top: 40px 0 20px;
 }
 
 
