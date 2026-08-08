@@ -163,23 +163,15 @@ footer {
 }
 
 /* redes sociais */
-.socialmedia {
-    display: flex;
-    gap: 10px;
-}
-
 .redes-sociais {
     display: flex;
     gap: 10px;
 }
 
-.socialmedia img {
-    width: 30px;
-}
-
 .redes-sociais img {
     width: 30px;
 }
+
 
 /* seção geral */
 .historia {
