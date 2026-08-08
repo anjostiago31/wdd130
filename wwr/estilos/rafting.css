@@ -209,3 +209,125 @@ footer {
     font-size: 15px;
     line-height: 1;
 }
+
+.contato-info,
+.equipe,
+.formulario {
+    margin: 20px 0;
+}
+
+.funcionarios {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.funcionarios img {
+    width: 150px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background-color: #0b3c5d;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #145a86;
+}
+
+.contato-info {
+    margin-bottom: 30px;
+}
+
+.dados-empresa {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.contato-principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: start;
+}
+
+.mapa iframe {
+    width: 100%;
+    border: none;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formulario input[type="radio"],
+.formulario input[type="checkbox"] {
+    width: auto;
+}
+
+.formulario textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formulario button {
+    width: 160px;
+    padding: 12px;
+    background-color: #0b3c5d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #145a86;
+}
+
+.equipe {
+    margin-top: 40px;
+}
+
+.funcionarios {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.funcionarios figure {
+    text-align: center;
+}
+
+.funcionarios img {
+    width: 150px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+
+    .dados-empresa {
+        flex-direction: column;
+    }
+
+    .contato-principal {
+        grid-template-columns: 1fr;
+    }
+
+    .funcionarios {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
