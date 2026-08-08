@@ -14,7 +14,7 @@ body {
     color: var(--cor-texto);
     background-color: #0b3c5d;
 }
- /*RETIREI O FOOTER DAQUI */
+
 header, main {
     width: 840px;
     margin: 0 auto;
@@ -66,6 +66,7 @@ footer a{
 }
  .hero article h2 {
     color: white;
+
 }
 .hero article img {
    float: right;
@@ -183,6 +184,7 @@ footer {
 .caixa-historia h2 {
   color: white;
 }
+
 /* layout em 3 colunas */
 .conteudo-historia {
     display: grid;
@@ -207,7 +209,6 @@ footer {
     line-height: 1;
 }
 
-.equipe,
 .formulario {
     margin: 20px 0;
 }
@@ -242,7 +243,7 @@ button:hover {
 }
 
 .contato-info {
-    margin-bottom: 20px 0 30px;
+    margin: 20px 0 30px;
 }
 
 .dados-empresa {
@@ -288,7 +289,7 @@ button:hover {
 }
 
 .equipe {
-    margin-top: 40px 0 20px;
+    margin: 40px 0 20px;
 }
 
 
