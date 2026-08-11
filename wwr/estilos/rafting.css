@@ -559,33 +559,6 @@ button:hover {
     padding: 25px 20px;
 }
 
-/* ================================
-   PÁGINA PASSEIOS
-   ================================ */
-/*
-.hero-passeios {
-    min-height: 350px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.45),
-            rgba(0, 0, 0, 0.45)),
-        url("../images/rafting-hero.jpg");
-
-    background-size: cover;
-    background-position: center;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    text-align: center;
-    padding: 40px;
-}
-*/
-/*
-.hero-passeios-conteudo {
-    max-width: 650px;
-    color: white;
-}
-*/
 .hero-passeios h1 {
     font-size: 42px;
     margin-bottom: 20px;
