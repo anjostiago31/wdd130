@@ -316,11 +316,6 @@ button:hover {
 
 }
 
-```css
-/* =========================================
-   PÁGINA INICIAL
-   ========================================= */
-
 /* Imagem principal da página */
 .hero-inicial {
     position: relative;
@@ -387,10 +382,6 @@ button:hover {
     background-color: #092f47;
 }
 
-/* =========================================
-   GRID DA PÁGINA INICIAL
-   ========================================= */
-
 .conteudo-inicial {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -420,10 +411,6 @@ button:hover {
 .card-inicial p {
     line-height: 1.6;
 }
-
-/* =========================================
-   NEWSLETTER
-   ========================================= */
 
 .newsletter {
     text-align: center;
@@ -474,10 +461,6 @@ button:hover {
 .newsletter button:hover {
     background-color: #ddd;
 }
-
-/* =========================================
-   RESPONSIVIDADE
-   ========================================= */
 
 @media (max-width: 700px) {
 
@@ -533,10 +516,6 @@ button:hover {
     margin: 0;
     margin-top: 0;
 }
-
-/* =========================================
-   UNIR HERO COM A CAIXA INICIAL
-   ========================================= */
 
 .hero {
     margin: 0;
