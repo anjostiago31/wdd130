@@ -7,230 +7,187 @@
     <meta name="author" content="Tiago dos Anjos de Oliveira.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Fale Conosco | Rafting Aventura Brasil</title>
-<meta name="description" content="Entre em contato com a Rafting Aventura Brasil. Tire dúvidas, faça reservas e fale com nossa equipe.">
+    <title>Fale Conosco | Rafting Aventura Brasil</title>
+    <meta name="description"
+      content="Entre em contato com a Rafting Aventura Brasil. Tire dúvidas, faça reservas e fale com nossa equipe.">
 
-<link rel="stylesheet" href="estilos/rafting.css">
+    <link rel="stylesheet" href="estilos/rafting.css">
 
 </head>
 
 <body>
+    <header>
+        <img src="imagens/rafting_otimizada.jpg" alt="Foto barco descendo o rio." width="250">
 
-<header>
-    <img src="imagens/rafting_otimizada.jpg" alt="Foto barco descendo o rio." width="250">
-    <nav>
-        <ul>
-            <li><a href="index.html">Página Inicial</a></li>
-            <li><a href="sobre.html">Sobre Nós</a></li>
-            <li><a href="passeios.html">Passeios</a></li>
-            <li><a href="contato.html">Fale Conosco</a></li>
-        </ul>
-    </nav>
-</header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<main>
+    <main>
 
-    <h1>Rafting Aventura Brasil - Fale Conosco</h1>
+        <div class="caixa-contato">
 
+            <h1>Rafting Aventura Brasil - Fale Conosco</h1>
 
-<!-- INFORMAÇÕES DA EMPRESA -->
-<section class="contato-info">
+            <!-- INFORMAÇÕES DA EMPRESA -->
+            <section class="contato-info">
 
-    <h2>Informações da Empresa</h2>
+                <h2>Informações da Empresa</h2>
 
-    <div class="dados-empresa">
+                <div class="dados-empresa">
 
-        <p>
-            <strong>Endereço:</strong>
-            Garça - SP
-        </p>
+                    <p>
+                        <strong>Endereço:</strong>
+                        Garça - SP
+                    </p>
 
-        <p>
-            <strong>Telefone:</strong>
-            (14) 99999-9999
-        </p>
+                    <p>
+                        <strong>Telefone:</strong>
+                        (14) 99999-9999
+                    </p>
 
-        <p>
-            <strong>E-mail:</strong>
-            contato@aventurabrasil.com
-        </p>
+                    <p>
+                        <strong>E-mail:</strong>
+                        contato@aventurabrasil.com
+                    </p>
 
-    </div>
+                </div>
 
-</section>
+            </section>
 
+            <!-- MAPA + FORMULÁRIO -->
+            <section class="contato-principal">
 
-<!-- MAPA + FORMULÁRIO -->
-<section class="contato-principal">
+                <div class="mapa">
 
-    <!-- MAPA À ESQUERDA -->
-    <div class="mapa">
+                    <iframe src="https://www.google.com/maps?q=Garça+SP&output=embed" height="400"
+                      title="Mapa de localização da Rafting Aventura Brasil">
+                    </iframe>
 
-        <iframe
-            src="https://www.google.com/maps?q=Garça+SP&output=embed"
-            height="400"
-            title="Mapa de localização da Rafting Aventura Brasil">
-        </iframe>
+                </div>
 
-    </div>
+                <div class="formulario">
 
+                    <h2>Envie uma mensagem</h2>
 
-    <!-- FORMULÁRIO À DIREITA -->
-    <div class="formulario">
+                    <form>
 
-        <h2>Envie uma mensagem</h2>
+                        <label for="nome">Nome:</label>
 
-        <form>
+                        <input type="text" id="nome" name="nome" required>
 
-            <label for="nome">Nome:</label>
+                        <label for="email">E-mail:</label>
 
-            <input
-                type="text"
-                id="nome"
-                name="nome"
-                required>
+                        <input type="email" id="email" name="email" required>
 
+                        <p>Finalidade da mensagem:</p>
 
-            <label for="email">E-mail:</label>
+                        <label for="consulta-geral">
+                            <input type="radio" id="consulta-geral" name="assunto" value="geral"
+                              required>
+                            Consulta Geral
+                        </label>
 
-            <input
-                type="email"
-                id="email"
-                name="email"
-                required>
+                        <label for="pergunta-reserva">
+                            <input type="radio" id="pergunta-reserva" name="assunto"
+                              value="reserva">
+                            Pergunta sobre Reserva
+                        </label>
 
+                        <label for="sugestao-site">
+                            <input type="radio" id="sugestao-site" name="assunto" value="sugestao">
+                            Sugestão de Site
+                        </label>
 
-            <p>Finalidade da mensagem:</p>
+                        <label for="mensagem">Mensagem:</label>
 
-            <label for="consulta-geral">
-                <input
-                    type="radio"
-                    id="consulta-geral"
-                    name="assunto"
-                    value="geral"
-                    required>
+                        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
 
-    Consulta Geral
+                        <label for="newsletter">
 
-            </label>
+                            <input type="checkbox" id="newsletter" name="newsletter">
 
-            <label for="pergunta-reserva">
-                <input
-                    type="radio"
-                    id="pergunta-reserva"
-                    name="assunto"
-                    value="reserva">
+                            Quero receber a newsletter mensal
 
-    Pergunta sobre Reserva
+                        </label>
 
-            </label>
+                        <button type="submit">
+                            Enviar Mensagem
+                        </button>
 
-            <label for="sugestao-site">
-               <input
-                   type="radio"
-                   id="sugestao-site"
-                   name="assunto"
-                   value="sugestao">
+                    </form>
 
-    Sugestão de Site
-            </label>    
+                </div>
 
-            <label for="mensagem">Mensagem:</label>
+            </section>
 
-            <textarea
-                id="mensagem"
-                name="mensagem"
-                rows="6"
-                required>
-            </textarea>
+            <!-- NOSSA EQUIPE -->
+            <section class="equipe">
 
+                <h2>Nossa Equipe</h2>
 
-            <label for="newsletter">
-    <input
-        type="checkbox"
-        id="newsletter"
-        name="newsletter">
+                <div class="funcionarios">
 
-    Quero receber a newsletter mensal
-            </label>
+                    <figure>
+                        <img src="imagens/perfilempresaral1.jpg" alt="Instrutor João">
 
-            <button type="submit">
-                Enviar Mensagem
-            </button>
+                        <figcaption>
+                            João Silva - Instrutor
+                        </figcaption>
+                    </figure>
 
-        </form>
+                    <figure>
+                        <img src="imagens/perfilemprsarial2.jpg" alt="Guia Maria">
 
-    </div>
+                        <figcaption>
+                            Tiago Souza - Guia de Rafting
+                        </figcaption>
+                    </figure>
 
-</section>
+                    <figure>
+                        <img src="imagens/perfilempresarial3.jpg" alt="Atendente Carlos">
 
+                        <figcaption>
+                            Carlos Lima - Atendimento
+                        </figcaption>
+                    </figure>
 
-<!-- NOSSA EQUIPE -->
-<section class="equipe">
+                </div>
 
-    <h2>Nossa Equipe</h2>
+            </section>
 
-    <div class="funcionarios">
+        </div>
 
-        <figure>
-            <img
-                src="imagens/perfilempresaral1.jpg"
-                alt="Instrutor João">
+    </main>
 
-            <figcaption>
-                João Silva - Instrutor
-            </figcaption>
-        </figure>
+    <footer>
+        <p>&copy; 2026 Rafting Aventura Brasil - Tiago dos Anjos de Oliveira</p>
 
+        <nav class="redes-sociais">
 
-        <figure>
-            <img
-                src="imagens/perfilemprsarial2.jpg"
-                alt="Guia Maria">
+            <a href="https://facebook.com">
+                <img src="imagens/facebook-square.svg" alt="Ícone do Facebook" width="50">
+            </a>
 
-            <figcaption>
-                Tiago Souza - Guia de Rafting
-            </figcaption>
-        </figure>
+            <a href="https://instagram.com">
+                <img src="imagens/instagram.svg" alt="Ícone do Instagram" width="50">
+            </a>
 
+            <a href="https://youtube.com">
 
-        <figure>
-            <img
-                src="imagens/perfilempresarial3.jpg"
-                alt="Atendente Carlos">
+                <img src="imagens/youtube-square.svg" alt="Ícone do Youtube" width="50">
+            </a>
 
-            <figcaption>
-                Carlos Lima - Atendimento
-            </figcaption>
-        </figure>
+        </nav>
 
-    </div>
-
-</section>
-
-</main>
-
-            <footer>
-                <p>&copy; 2026 Rafting Aventura Brasil - Tiago dos Anjos de Oliveira</p>
-
-                <nav class="redes-sociais">
-
-                    <a href="https://facebook.com">
-                        <img src="imagens/facebook-square.svg" alt="Ícone do Facebook" width="50">
-                    </a>
-
-                    <a href="https://instagram.com">
-                       <img src="imagens/instagram.svg" alt="Ícone do Instagram" width="50">
-                    </a>
-
-                    <a href="https://youtube.com">
-
-                        <img src="imagens/youtube-square.svg" alt="Ícone do Youtube" width="50">
-                    </a>
-
-                </nav>
-
-            </footer>
+    </footer>
 
 </body>
+
 </html>
